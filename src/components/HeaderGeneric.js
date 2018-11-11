@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const HeaderGeneric = (props) => (
-    <header id="header">
-        <h1>Generic</h1>
-        <p>Ipsum dolor sit amet nullam</p>
-    </header>
-)
+const HeaderGeneric = ({ title, children }) => (
+  <header id="header">
+    {title && (
+        <h1>{title}</h1>
+    )}
+    {children && <p>{children}</p>}
+  </header>
+);
 
-export default HeaderGeneric
+export default HeaderGeneric;

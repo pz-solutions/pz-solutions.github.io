@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import Layout from '../components/layout'
+import Layout from '../layouts'
 import HeaderGeneric from '../components/HeaderGeneric'
 import pic04 from '../assets/images/pic04.jpg'
 
